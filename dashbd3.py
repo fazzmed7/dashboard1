@@ -24,7 +24,7 @@ if category_filter != 'All':
 st.title("E-commerce Sales Dashboard")
 col1,col2 = st.columns(2)
 with col1: 
-    st st.metric("Total Revenue", f"${df['Total'].sum():,.2f}")
+    st.metric("Total Revenue", f"${df['Total'].sum():,.2f}")
 with col2:
 st.metric("Total Orders", len(df))
 
